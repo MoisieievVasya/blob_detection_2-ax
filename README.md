@@ -40,6 +40,14 @@ This project is designed to detect blobs in a video feed and adjust the drone's 
    make
    ```
 
+## Note
+
+In the `main.cpp` file, there is an absolute path to the video file that needs to be changed to the correct path on your system:
+```cpp
+std::string videoPath = "/Users/admin/Documents/GitHub/blod_detection_2-ax/videos/test_video2.mp4";
+```
+Make sure to update this path to point to the correct location of your video file.
+
 # 2-Axis Control Logic
 
 # 2-Axis Control Logic
