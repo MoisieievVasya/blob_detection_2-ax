@@ -43,6 +43,13 @@ For better performance, it is recommended to use higher quality videos without g
    ```sh
    make
    ```
+## Expected Results 
+
+```sh
+Horizontal Offset: -63.7632, Forward/Backward Correction: -191.026
+MAVLink message sent: 84
+```
+and red circles, that used for blob designation 
 
 ## Note
 
