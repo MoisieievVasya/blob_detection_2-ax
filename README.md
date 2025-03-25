@@ -137,4 +137,13 @@ A PID (Proportional-Integral-Derivative) regulator can be used to improve the co
 3. **PID Control Logic**: Implement the PID control logic to adjust the drone's velocity based on the error.
 4. **MAVLink Commands**: Use MAVLink commands to send the adjusted velocity to the drone.
 
-These future directions aim to enhance the drone's capabilities by integrating waypoints, altitude control, and obstacle avoidance. Each feature involves specific implementation steps and the use of MAVLink commands to communicate with the drone.
+## Parallel Processing
+
+### Overview
+Parallel processing can be used to improve the performance and modularity of the system by processing multiple tasks concurrently.
+
+### Implementation Steps
+1. **Identify Parallelizable Tasks**: Identify tasks that can be executed concurrently, such as video frame processing and velocity adjustment.
+2. **Implement Multithreading**: Use multithreading to execute the identified tasks in parallel.
+3. **Synchronization**: Ensure proper synchronization between threads to avoid race conditions and data inconsistencies.
+
