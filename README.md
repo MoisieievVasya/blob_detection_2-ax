@@ -7,8 +7,10 @@ This project is designed to detect blobs in a video feed and adjust the drone's 
 - **videoProc**: Handles video processing and blob detection.
 - **controls**: Contains the logic for adjusting the drone's velocity based on the detected blob's position.
 - **communication**: Manages communication with the drone using MAVLink commands.
-
-*For better performance, it is recommended to use higher quality videos without green boxes.*
+  
+```sh
+For better performance, it is recommended to use higher quality videos without green boxes.
+```
 
 # Build Instructions
 
